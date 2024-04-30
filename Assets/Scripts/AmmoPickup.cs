@@ -6,11 +6,12 @@ public class AmmoPickup : MonoBehaviour
 {
     public int ammoAmmount = 25;
 
-    private void OnTriggerEnter2D(Collider2D collision)
+    private void OnTriggerEnter2D(Collider2D other)
     {
-        if(collision.tag == "Player")
+        if (other.transform.CompareTag("Player"))
         {
             PlayerController.instance.currentAmmo += ammoAmmount;
+            PlayerController.instance.updateAmmoUi();
 
             Destroy(gameObject);
         }
