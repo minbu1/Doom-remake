@@ -38,7 +38,6 @@ public class PlayerController : MonoBehaviour
         instance = this;
     }
 
-
     private void Start()
     {
         rb = GetComponent<Rigidbody2D>();
@@ -116,6 +115,8 @@ public class PlayerController : MonoBehaviour
             deadScreen.SetActive(true);
             dead = true;
             currentHealth = 0;
+            GameManager gameManager = new GameManager();
+            gameManager.UnlockCursor();
         }
 
         health.text = $"{currentHealth}%";
