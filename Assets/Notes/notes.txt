@@ -1,0 +1,7 @@
+            mouseInput = new Vector2(Input.GetAxisRaw("Mouse X"), Input.GetAxisRaw("Mouse Y")) * mouseSensitivity;
+            
+            
+            Quaternion camRotate = Quaternion.Euler(transform.rotation.eulerAngles.x, transform.rotation.eulerAngles.y, transform.rotation.eulerAngles.z - mouseInput.x);
+            transform.rotation = camRotate;
+
+            playerCam.transform.localRotation = Quaternion.Euler(playerCam.transform.localRotation.eulerAngles + new Vector3(0f, mouseInput.y, 0f));

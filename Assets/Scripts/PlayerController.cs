@@ -32,6 +32,7 @@ public class PlayerController : MonoBehaviour
 
     public TextMeshProUGUI health;
     public TextMeshProUGUI ammo;
+    
 
     private void Awake()
     {
@@ -52,8 +53,6 @@ public class PlayerController : MonoBehaviour
     {
         if (!dead)
         {
-
-
             //movement
             moveInput = new Vector2(Input.GetAxis("Horizontal"), Input.GetAxis("Vertical"));
 
@@ -61,13 +60,16 @@ public class PlayerController : MonoBehaviour
             Vector3 moveVertical = transform.right * moveInput.y;
 
             rb.velocity = (moveHorizontal + moveVertical) * moveSpeed;
-
+            
             //camera control
             mouseInput = new Vector2(Input.GetAxisRaw("Mouse X"), Input.GetAxisRaw("Mouse Y")) * mouseSensitivity;
-
-            transform.rotation = Quaternion.Euler(transform.rotation.eulerAngles.x, transform.rotation.eulerAngles.y, transform.rotation.eulerAngles.z - mouseInput.x);
+            
+            
+            Quaternion camRotate = Quaternion.Euler(transform.rotation.eulerAngles.x, transform.rotation.eulerAngles.y, transform.rotation.eulerAngles.z - mouseInput.x);
+            transform.rotation = camRotate;
 
             playerCam.transform.localRotation = Quaternion.Euler(playerCam.transform.localRotation.eulerAngles + new Vector3(0f, mouseInput.y, 0f));
+            
 
             //shooting
             if (Input.GetMouseButtonDown(0))
