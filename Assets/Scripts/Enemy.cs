@@ -1,3 +1,4 @@
+using System;
 using JetBrains.Annotations;
 using System.Collections;
 using System.Collections.Generic;
@@ -18,6 +19,8 @@ public class Enemy : MonoBehaviour
     private float shotCounter;
     public GameObject bullet;
     public Transform firePoint;
+
+    public int meeleeDamage = 10;
 
     private void Start()
     {
@@ -46,6 +49,15 @@ public class Enemy : MonoBehaviour
         {
             rb.velocity = Vector2.zero;
         }
+    }
+
+    private void OnTriggerEnter2D(Collider2D other)
+    {
+        if (other.transform.CompareTag("Player"))
+        {
+            PlayerController.instance.TakeDamage(meeleeDamage);
+        }
+        Debug.Log("collider triggered");
     }
 
     public void TakeDamage()

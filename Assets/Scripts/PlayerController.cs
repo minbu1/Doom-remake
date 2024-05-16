@@ -28,6 +28,8 @@ public class PlayerController : MonoBehaviour
     private int currentHealth;
     public int maxHealth = 100;
     public GameObject deadScreen;
+    public GameObject healthBar;
+    public GameObject ammoBar;
     private bool dead;
 
     public TextMeshProUGUI health;
@@ -114,7 +116,10 @@ public class PlayerController : MonoBehaviour
 
         if(currentHealth <= 0)
         {
+            print("ljikfdshlk");
             deadScreen.SetActive(true);
+            healthBar.SetActive(false);
+            ammoBar.SetActive(false);
             dead = true;
             currentHealth = 0;
             GameManager gameManager = new GameManager();

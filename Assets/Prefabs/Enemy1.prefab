@@ -92,7 +92,7 @@ CircleCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
@@ -112,12 +112,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   health: 2
   explosion: {fileID: 3420648439911675420, guid: db03dc5c3a986884daaebcf2be75310c, type: 3}
-  playerRange: 20
+  playerRange: 5
   moveSpeed: 1.5
   doesEnemyShoot: 0
   fireRate: 0
   bullet: {fileID: 0}
   firePoint: {fileID: 0}
+  meeleeDamage: 10
 --- !u!1 &4715654565604600671
 GameObject:
   m_ObjectHideFlags: 0

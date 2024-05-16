@@ -7,9 +7,8 @@ public class Restart : MonoBehaviour
 {
     public void ResetScene()
     {
-        GameManager gameManager = new GameManager();
-        gameManager.LockCursor();
         SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+        
     }
 
 }

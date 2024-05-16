@@ -6,80 +6,11 @@
   <component name="ChangeListManager">
     <list default="true" id="f8787a27-13be-4323-9368-648c1a1996a9" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Doom remake/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Doom remake/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Art.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Art/Enemy.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Art/Enemy/bullet-5.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Art/Enemy/bullet-5.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Art/Enemy/skull-1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Art/Enemy/skull-1.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Art/Enemy/skull-2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Art/Enemy/skull-2.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Art/Enemy/skull-hit.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Art/Enemy/skull-hit.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Art/Enemy/skull-horns-1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Art/Enemy/skull-horns-1.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Art/Enemy/skull-horns-2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Art/Enemy/skull-horns-2.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Art/Enemy/skull-horns-hit.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Art/Enemy/skull-horns-hit.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Art/FX.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Art/Pickups.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Art/Tiles.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Art/Tiles/FPS_Tiles_0.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Art/Tiles/FPS_Tiles_0.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Art/Tiles/FPS_Tiles_1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Art/Tiles/FPS_Tiles_1.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Art/Tiles/FPS_Tiles_2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Art/Tiles/FPS_Tiles_2.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Art/Tiles/FPS_Tiles_3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Art/Tiles/FPS_Tiles_3.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Art/Tiles/FPS_Tiles_4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Art/Tiles/FPS_Tiles_4.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Art/UI.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/Lantern.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/Lantern.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/Wall2.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/Wall2.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Notes.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Notes/notes.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Notes/notes.txt.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Envirement/GroundTile.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Envirement/GroundTile.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Envirement/Tiles.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Envirement/Tiles/FPS_Tiles_0.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Envirement/Tiles/FPS_Tiles_0.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Envirement/Tiles/FPS_Tiles_0.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Envirement/Tiles/FPS_Tiles_0.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Envirement/Tiles/FPS_Tiles_1.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Envirement/Tiles/FPS_Tiles_1.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Envirement/Tiles/FPS_Tiles_1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Envirement/Tiles/FPS_Tiles_1.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Envirement/Tiles/FPS_Tiles_2.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Envirement/Tiles/FPS_Tiles_2.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Envirement/Tiles/FPS_Tiles_2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Envirement/Tiles/FPS_Tiles_2.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Envirement/Tiles/FPS_Tiles_3.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Envirement/Tiles/FPS_Tiles_3.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Envirement/Tiles/FPS_Tiles_3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Envirement/Tiles/FPS_Tiles_3.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Envirement/Tiles/FPS_Tiles_4.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Envirement/Tiles/FPS_Tiles_4.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Envirement/Tiles/FPS_Tiles_4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Envirement/Tiles/FPS_Tiles_4.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Envirement/Tiles/GroundTile.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Envirement/Tiles/GroundTile.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Wall 1.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Wall 1.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Test.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Test.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Materials.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Materials/Enemy.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Materials/Enemy.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Materials/Lantern.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Materials/Lantern.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/PISGA0.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/PISGA0.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/PISGB0.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/PISGB0.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Radiation.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/Radiation.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Tiles/DoomTiles.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Tiles/DoomTiles.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Tiles/SciFiTiles/SciFiTiles.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Tiles/SciFiTiles/SciFiTiles.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/GraphicsSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/GraphicsSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/QualitySettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/QualitySettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Enemy1.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Enemy1.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Bullet.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Bullet.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Enemy.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Enemy.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PlayerController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PlayerController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Restart.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Restart.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -171,7 +102,8 @@
       <workItem from="1715089672390" duration="639000" />
       <workItem from="1715090810961" duration="1000" />
       <workItem from="1715870643947" duration="30000" />
-      <workItem from="1715871250939" duration="1009000" />
+      <workItem from="1715871250939" duration="1604000" />
+      <workItem from="1715874519091" duration="1654000" />
     </task>
     <servers />
   </component>
