@@ -37368,6 +37368,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b2f9db9c1d1cceb4ba5265ef745057e4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  gameManager: {fileID: 1235652739}
   moveSpeed: 3
   mouseSensitivity: 2
   playerCam: {fileID: 1984186785}

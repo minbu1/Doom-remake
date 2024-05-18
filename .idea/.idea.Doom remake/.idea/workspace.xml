@@ -6,11 +6,36 @@
   <component name="ChangeListManager">
     <list default="true" id="f8787a27-13be-4323-9368-648c1a1996a9" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Doom remake/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Doom remake/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Enemy1.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Enemy1.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Bullet.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Bullet.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Enemy.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Enemy.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GPJ FPS Assets/Art/Tiles/FPS_Tiles_0.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GPJ FPS Assets/Art/Tiles/FPS_Tiles_0.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GPJ FPS Assets/Art/Tiles/FPS_Tiles_1.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GPJ FPS Assets/Art/Tiles/FPS_Tiles_1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GPJ FPS Assets/Art/Tiles/FPS_Tiles_4.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GPJ FPS Assets/Art/Tiles/FPS_Tiles_4.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/Wall1.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/Wall1.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/Wall2 1.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/Wall2 1.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/Wall2.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/Wall2.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level1.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Level1.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Startup.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Startup.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Test.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Test.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Test_Profiles.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Test_Profiles/Editor Profile.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Test_Profiles/Editor Profile.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Test_Profiles/Empty Profile.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Test_Profiles/Empty Profile.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Test_Profiles/GameObject Profile.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Test_Profiles/GameObject Profile.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Test_Profiles/Lantern_0 Profile.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Test_Profiles/Lantern_0 Profile.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GameManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/GameManager.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/PlayerController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PlayerController.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Restart.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Restart.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Ghost_Bullet.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Ghost_Bullet.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Radiation.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/Radiation.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Radiation.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/Radiation.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Tiles/DoomTiles.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Tiles/DoomTiles.prefab.meta" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,6 +44,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Boss.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 4
@@ -103,7 +131,8 @@
       <workItem from="1715090810961" duration="1000" />
       <workItem from="1715870643947" duration="30000" />
       <workItem from="1715871250939" duration="1604000" />
-      <workItem from="1715874519091" duration="1654000" />
+      <workItem from="1715874519091" duration="2345000" />
+      <workItem from="1716044531229" duration="3360000" />
     </task>
     <servers />
   </component>

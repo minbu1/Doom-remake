@@ -89,8 +89,9 @@ MonoBehaviour:
   moveSpeed: 1.5
   doesEnemyShoot: 1
   fireRate: 0.5
-  bullet: {fileID: 6518071654915655983, guid: 8ca415e7e55f7334e92e4f9fc9240496, type: 3}
+  bullet: {fileID: 833359178415980661, guid: 5e3c8cf7d03bfec439ca460b2cb9b672, type: 3}
   firePoint: {fileID: 3999081862808672461}
+  meeleeDamage: 10
 --- !u!50 &1835046715518018195
 Rigidbody2D:
   serializedVersion: 4

@@ -6,6 +6,7 @@ using TMPro;
 
 public class PlayerController : MonoBehaviour
 {
+    public GameManager gameManager;
     public static PlayerController instance;
 
     private Rigidbody2D rb;
@@ -116,13 +117,15 @@ public class PlayerController : MonoBehaviour
 
         if(currentHealth <= 0)
         {
-            print("ljikfdshlk");
+            print("GAME END");
+
+            Time.timeScale = 0;
+            
             deadScreen.SetActive(true);
             healthBar.SetActive(false);
             ammoBar.SetActive(false);
             dead = true;
             currentHealth = 0;
-            GameManager gameManager = new GameManager();
             gameManager.UnlockCursor();
         }
 

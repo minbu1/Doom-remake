@@ -1,24 +1,13 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour
 {
     private void Start()
     {
         LockCursor();
-    }
-    private void Update()
-    {
-        if(Input.GetKeyDown(KeyCode.Escape))
-        {
-            UnlockCursor();
-        }
-
-        if(Input.GetMouseButtonDown(0))
-        {
-            LockCursor();
-        }
     }
 
     public void LockCursor()
@@ -32,4 +21,6 @@ public class GameManager : MonoBehaviour
         Cursor.lockState = CursorLockMode.None;
         Cursor.visible = true;
     }
+
+
 }
