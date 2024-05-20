@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -15,6 +16,19 @@ public class NextScene : MonoBehaviour
         {
             // Load the next scene
             SceneManager.LoadScene(nextSceneIndex);
+        }
+    }
+
+    public void LoadScene1()
+    {
+        SceneManager.LoadScene(1);
+    }
+
+    private void OnTriggerEnter2D(Collider2D other)
+    {
+        if (other.transform.CompareTag("Player"))
+        {
+            LoadNextScene();
         }
     }
 }

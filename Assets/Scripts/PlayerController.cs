@@ -90,6 +90,8 @@ public class PlayerController : MonoBehaviour
                         {
                             hit.transform.parent.GetComponent<Enemy>().TakeDamage();
                         }
+                        
+                        AudioController.instance.PlayGunShot();
                     }
                     else
                     {
@@ -117,8 +119,6 @@ public class PlayerController : MonoBehaviour
 
         if(currentHealth <= 0)
         {
-            print("GAME END");
-
             Time.timeScale = 0;
             
             deadScreen.SetActive(true);
@@ -130,6 +130,8 @@ public class PlayerController : MonoBehaviour
         }
 
         health.text = $"{currentHealth}%";
+        
+        AudioController.instance.PlayPlayerHurt();
     }
 
     public void AddHealth(int healAmmount)

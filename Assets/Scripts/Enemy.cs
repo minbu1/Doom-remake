@@ -42,6 +42,7 @@ public class Enemy : MonoBehaviour
                 {
                     Instantiate(bullet, firePoint.position, firePoint.rotation);
                     shotCounter = fireRate;
+                    AudioController.instance.PlayEnemyShoot();
                 }
             }
         }
@@ -67,6 +68,12 @@ public class Enemy : MonoBehaviour
         {
             Destroy(gameObject);
             Instantiate(explosion, transform.position, transform.rotation);
+            
+            AudioController.instance.PlayEnemyDeath();
+        }
+        else
+        {
+            AudioController.instance.PlayEnemyShot();
         }
     }
 }

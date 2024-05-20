@@ -86,7 +86,7 @@ MonoBehaviour:
   health: 2
   explosion: {fileID: 3420648439911675420, guid: db03dc5c3a986884daaebcf2be75310c, type: 3}
   playerRange: 5
-  moveSpeed: 1.5
+  moveSpeed: 2
   doesEnemyShoot: 1
   fireRate: 0.5
   bullet: {fileID: 833359178415980661, guid: 5e3c8cf7d03bfec439ca460b2cb9b672, type: 3}

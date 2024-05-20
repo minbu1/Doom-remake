@@ -113,7 +113,7 @@ MonoBehaviour:
   health: 2
   explosion: {fileID: 3420648439911675420, guid: db03dc5c3a986884daaebcf2be75310c, type: 3}
   playerRange: 5
-  moveSpeed: 1.5
+  moveSpeed: 2.5
   doesEnemyShoot: 0
   fireRate: 0
   bullet: {fileID: 0}
