@@ -42,7 +42,6 @@ public class Enemy : MonoBehaviour
                 {
                     Instantiate(bullet, firePoint.position, firePoint.rotation);
                     shotCounter = fireRate;
-                    AudioController.instance.PlayEnemyShoot();
                 }
             }
         }
@@ -58,7 +57,6 @@ public class Enemy : MonoBehaviour
         {
             PlayerController.instance.TakeDamage(meeleeDamage);
         }
-        Debug.Log("collider triggered");
     }
 
     public void TakeDamage()

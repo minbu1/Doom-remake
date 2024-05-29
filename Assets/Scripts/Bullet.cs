@@ -18,14 +18,13 @@ public class Bullet : MonoBehaviour
 
         direction = PlayerController.instance.transform.position - transform.position;
         direction.Normalize();
-        direction = direction * bulletSpeed;
     }
     private void Update()
     {
         rb.velocity = direction * bulletSpeed;
     }
 
-    private void OnTriggerEnter2D(Collider2D other)
+    private void OnCollisionEnter2D(Collision2D other)
     {
         if (other.transform.CompareTag("Player"))
         {

@@ -44,9 +44,4 @@ public class AudioController : MonoBehaviour
         playerHurt.Stop();
         playerHurt.Play();
     }
-    public void PlayEnemyShoot()
-    {
-        enemyShoot.Stop();
-        enemyShoot.Play();
-    }
 }

@@ -8,7 +8,8 @@ public class PlayerController : MonoBehaviour
 {
     public GameManager gameManager;
     public static PlayerController instance;
-
+    
+    public CamEffects  camEffects;
     private Rigidbody2D rb;
 
     public float moveSpeed = 3f;
@@ -93,10 +94,6 @@ public class PlayerController : MonoBehaviour
                         
                         AudioController.instance.PlayGunShot();
                     }
-                    else
-                    {
-                        Debug.Log("i'm looking at nothing");
-                    }
                     currentAmmo--;
                     gunAnimation.SetTrigger("Shoot");
                     updateAmmoUi();
@@ -132,6 +129,7 @@ public class PlayerController : MonoBehaviour
         health.text = $"{currentHealth}%";
         
         AudioController.instance.PlayPlayerHurt();
+        camEffects.DamageScreenOn();
     }
 
     public void AddHealth(int healAmmount)
